@@ -44,4 +44,4 @@ Run the program ```run_analysis.R``` in your RStudio or R console, before runnin
 	[1] "/Users/krishna/study/Coursera/DataSciences/GetData/GetData" 
 	> source("run_analysis.R") # after above check, run this code it will write the tidy data set in data folder and also create CodeBook.md
 
-### IF every thing correctly placed in a folder then run the following ```source("run_analysis.R")```
+### IF every thing correctly placed in a folder called GetData then run the following ```source("run_analysis.R")```
