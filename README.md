@@ -21,10 +21,10 @@ Problem: You should create one R script called run_analysis.R that does the foll
     3. knitr  # To generate CodeBook.md
 
 ## Data Set:
-   download the data set from above link, extract it and rename the folder *data*
+   download the data set from above link, extract it and rename the folder as *data*
 
 ## How to use code:
-Run the program run_analysis.R in your RStudio or R console, before running program please check that directories and code are placed in proper way, in my out of the following commands are:
+Run the program ```run_analysis.R``` in your RStudio or R console, before running program please check that directories and code are placed in proper way, in R cosonle window the out of the following commands are:
     
     > dir()
 	[1] "CodeBook.html"  "CodeBook.md"   
@@ -43,3 +43,5 @@ Run the program run_analysis.R in your RStudio or R console, before running prog
 	> getwd()
 	[1] "/Users/krishna/study/Coursera/DataSciences/GetData/GetData" 
 	> source("run_analysis.R") # after above check, run this code it will write the tidy data set in data folder and also create CodeBook.md
+
+### IF every thing correctly placed in a folder then run the following ```source("run_analysis.R")```
