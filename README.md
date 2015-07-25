@@ -25,6 +25,7 @@ Problem: You should create one R script called run_analysis.R that does the foll
 
 ## How to use code:
 Run the program run_analysis.R in your RStudio or R console, before running program please check that directories and code are placed in proper way, in my out of the following commands are:
+    
     > dir()
 	[1] "CodeBook.html"  "CodeBook.md"   
 	[3] "CodeBook.txt"   "LICENSE"       
