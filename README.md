@@ -25,20 +25,20 @@ Problem: You should create one R script called run_analysis.R that does the foll
 
 ## How to use code:
 Run the program run_analysis.R in your RStudio or R console, before running program please check that directories and code are placed in proper way, in my out of the following commands are:
-    	> dir()
-		[1] "CodeBook.html"  "CodeBook.md"   
-		[3] "CodeBook.txt"   "LICENSE"       
-		[5] "README.md"      "data"          
-		[7] "run_analysis.R"
-		> getwd()
-		[1] "/Users/krishna/study/Coursera/DataSciences/GetData/GetData"
-		> setwd("data")
-		> dir()
-		[1] "CodeBook.Rmd"        "README.txt"         
-		[3] "activity_labels.txt" "features.txt"       
-		[5] "features_info.txt"   "test"               
-		[7] "tidydata.txt"        "train"              
-		> setwd("../")
-		> getwd()
-		[1] "/Users/krishna/study/Coursera/DataSciences/GetData/GetData" 
-		> source("run_analysis.R") # after above check, run this code it will write the tidy data set in data folder and also create CodeBook.md
+    > dir()
+	[1] "CodeBook.html"  "CodeBook.md"   
+	[3] "CodeBook.txt"   "LICENSE"       
+	[5] "README.md"      "data"          
+	[7] "run_analysis.R"
+	> getwd()
+	[1] "/Users/krishna/study/Coursera/DataSciences/GetData/GetData"
+	> setwd("data")
+	> dir()
+	[1] "CodeBook.Rmd"        "README.txt"         
+	[3] "activity_labels.txt" "features.txt"       
+	[5] "features_info.txt"   "test"               
+	[7] "tidydata.txt"        "train"              
+	> setwd("../")
+	> getwd()
+	[1] "/Users/krishna/study/Coursera/DataSciences/GetData/GetData" 
+	> source("run_analysis.R") # after above check, run this code it will write the tidy data set in data folder and also create CodeBook.md
